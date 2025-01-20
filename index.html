@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <i class="fa-brands fa-spotify"></i>
+        <div class="homeSearch">
+            <div class="home"><i class="fa-solid fa-house"></i></div>
+            <div class="rearch">
+                <div class="hinput">
+                    <button><i class="fa-solid fa-search"></i></button>
+                    <input type="text" placeholder="What do you want to play?">
+                </div>
+                <div class="browser">
+                    <i class="fa-solid fa-inbox"></i>
+                </div>
+            </div>
+            <div class="searchmenu">
+                <button><i class="fa-solid fa-search"></i></button>
+            </div>
+            
+        </div>
+
+        <div class="slbutton">
+            <button id="signin">Sign Up</button>
+            <button id="login">Log In</button>
+        </div>
+    </header>
+
+    <div class="base">
+        <div class="sider">
+            <div class="sidertop">
+                <div class="lib">
+                    <i class="fa-solid fa-hard-drive"></i>
+                    <h2>Your Library</h2>
+                </div>
+                <i class="fa-solid fa-plus"></i>
+            </div>
+
+            <div class="container">
+                <div class="createplaylist">
+                    <h3>Create your first playlist</h3>
+                    <span>it's easy we'll help you</span>
+                    <br>
+                    <button>Create Playlist</button>
+
+                </div>
+            </div>
+            <div class="container">
+                <div class="createplaylist">
+                    <h3>Let's find some podcasts to follow</h3>
+                    <span>We'll keep you updated on new episodes</span>
+                    <br>
+                    <button>Browse podcasts</button>
+                </div>
+            </div>
+            <div class="sidefooter">
+                <div class="sidefootera">
+                    <a href="#">Legal</a>
+                    <a href="#">Safety & Privacy Center</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Cookies</a>
+                    <a href="#">About Ads</a>
+                    <a href="#">Accessibility</a>
+                </div>
+                <a id="Cookies" href="#">Cookies</a>
+
+            </div>
+            <div class="sideLan">
+                <button><i class="fa-solid fa-globe"></i>English</button>
+            </div>
+        </div>
+
+        <div class="main">
+            <div class="songartist">
+                <div class="conthead">
+                    <h3>Popular artists</h3>
+                    <a href="#">show all</a>
+                </div>
+                <div class="artistcont">
+                    <div class="artist">
+                        <div class="imgcont" onmouseover="mouse()" onmouseleave="leave()">
+                            <img src="https://i.scdn.co/image/ab67616100005174cb6926f44f620555ba444fca" alt="">
+                            <div class="playicon"><i class="fa-solid fa-circle-play"></i></div>
+                        </div>
+                        <div class="artistname">
+                            <a href="#">Pritam</a>
+                            <h4>Artist</h4>
+                        </div>
+                    </div>
+                    <div class="artist">
+                        <div class="imgcont" onmouseover="mouse()" onmouseleave="leave()">
+                            <img src="https://i.scdn.co/image/ab67616100005174b19af0ea736c6228d6eb539c" alt="">
+                            <div class="playicon"><i class="fa-solid fa-circle-play"></i></div>
+                        </div>
+                        <div class="artistname">
+                            <a href="#">A.R. Rahman</a>
+                            <h4>Artist</h4>
+                        </div>
+                    </div>
+                    <div class="artist">
+                        <div class="imgcont" onmouseover="mouse()" onmouseleave="leave()">
+                            <img src="https://i.scdn.co/image/ab67616100005174bd6fbc7d0973cc33940781ad" alt="">
+                            <div class="playicon"><i class="fa-solid fa-circle-play"></i></div>
+                        </div>
+                        <div class="artistname">
+                            <a href="#">Sachin-Jigar</a>
+                            <h4>Artist</h4>
+                        </div>
+                    </div>
+                    <div class="artist">
+                        <div class="imgcont" onmouseover="mouse()" onmouseleave="leave()">
+                            <img src="https://i.scdn.co/image/ab676161000051745ba2d75eb08a2d672f9b69b7" alt="">
+                            <div class="playicon"><i class="fa-solid fa-circle-play"></i></div>
+                        </div>
+                        <div class="artistname">
+                            <a href="#">Arijit Singh</a>
+                            <h4>Artist</h4>
+                        </div>
+                    </div>
+                    <div class="artist">
+                        <div class="imgcont" onmouseover="mouse()" onmouseleave="leave()">
+                            <img src="https://i.scdn.co/image/ab676161000051740f0be2054fe9594026a6b843" alt="">
+                            <div class="playicon"><i class="fa-solid fa-circle-play"></i></div>
+                        </div>
+                        <div class="artistname">
+                            <a href="#">Anirudh <br> Ravichander</a>
+                            <h4>Artist</h4>
+                        </div>
+                    </div>
+                    <div class="artist">
+                        <div class="imgcont" onmouseover="mouse()" onmouseleave="leave()">
+                            <img src="https://i.scdn.co/image/ab67616100005174c40600e02356cc86f0debe84" alt="">
+                            <div class="playicon"><i class="fa-solid fa-circle-play"></i></div>
+                        </div>
+                        <div class="artistname">
+                            <a href="#">Atif Aslam</a>
+                            <h4>Artist</h4>
+                        </div>
+                    </div>
+                    <div class="artist">
+                        <div class="imgcont" onmouseover="mouse()" onmouseleave="leave()">
+                            <img src="https://i.scdn.co/image/ab67616100005174fb13d10be20fdcb5a670f551" alt="">
+                            <div class="playicon"><i class="fa-solid fa-circle-play"></i></div>
+                        </div>
+                        <div class="artistname">
+                            <a href="#">Vishal Mishra</a>
+                            <h4>Artist</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="songartist">
+                <div class="conthead">
+                    <h3>Popular albums</h3>
+                    <a href="#">show all</a>
+                </div>
+                <div class="artistcont">
+                    <div class="artist">
+                        <div class="imgcont albums" onmouseover="mouse()">
+                            <img src="https://i.scdn.co/image/ab67616d00001e02aad3f4b601ae8763b3fc4e88" alt="">
+                            <div class="playicon"><i class="fa-solid fa-circle-play"></i></div>
+                        </div>
+                        <div class="artistname">
+                            <a href="#">GLORY</a>
+                            <h4>Yo Yo honey singh</h4>
+                        </div>
+                    </div>
+                    <div class="artist">
+                        <div class="imgcont albums" onmouseover="mouse()">
+                            <img src="https://i.scdn.co/image/ab67616d00001e026404721c1943d5069f0805f3" alt="">
+                            <div class="playicon"><i class="fa-solid fa-circle-play"></i></div>
+                        </div>
+                        <div class="artistname">
+                            <a href="#">Aashiqui 2</a>
+                            <h4>mithoon, Ankit, Tiwari, Jeet Gannguli</h4>
+                        </div>
+                    </div>
+                    <div class="artist">
+                        <div class="imgcont albums" onmouseover="mouse()">
+                            <img src="https://i.scdn.co/image/ab67616d00001e0272a77d038887cdc425f5ee55" alt="">
+                            <div class="playicon"><i class="fa-solid fa-circle-play"></i></div>
+                        </div>
+                        <div class="artistname">
+                            <a href="#">Jo Tum Mere Ho</a>
+                            <h4>Anuv Jain</h4>
+                        </div>
+                    </div>
+                    <div class="artist">
+                        <div class="imgcont albums" onmouseover="mouse()">
+                            <img src="https://i.scdn.co/image/ab67616d00001e02bb25239324c4e16ae01fda36" alt="">
+                            <div class="playicon"><i class="fa-solid fa-circle-play"></i></div>
+                        </div>
+                        <div class="artistname">
+                            <a href="#">Making Memories</a>
+                            <h4>Karan Aujil, Ikky</h4>
+                        </div>
+                    </div>
+                    <div class="artist">
+                        <div class="imgcont albums" onmouseover="mouse()">
+                            <img src="https://i.scdn.co/image/ab67616d00001e025e16168f7e8ff4fb8aace6cf" alt="">
+                            <div class="playicon"><i class="fa-solid fa-circle-play"></i></div>
+                        </div>
+                        <div class="artistname">
+                            <a href="#">Aaj Ki Ratt(From<br>"Stree 2")</a>
+                            <h4>Sachin-Jigar, Amitabh Bhattacharya</h4>
+                        </div>
+                    </div>
+                    <div class="artist">
+                        <div class="imgcont albums" onmouseover="mouse()">
+                            <img src="https://i.scdn.co/image/ab67616d00001e02707ea5b8023ac77d31756ed4" alt="">
+                            <div class="playicon"><i class="fa-solid fa-circle-play"></i></div>
+                        </div>
+                        <div class="artistname">
+                            <a href="#">Yeh Jawaani Hai Deewani</a>
+                            <h4>Pritam</h4>
+                        </div>
+                    </div>
+                    <div class="artist">
+                        <div class="imgcont albums" onmouseover="mouse()">
+                            <img src="https://i.scdn.co/image/ab67616d00001e021d1cc2e40d533d7bcebf5dae" alt="">
+                            <div class="playicon"><i class="fa-solid fa-circle-play"></i></div>
+                        </div>
+                        <div class="artistname">
+                            <a href="#">Moosetape</a>
+                            <h4>Sidhu Moose Wala</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="songartist">
+                <div class="conthead">
+                    <h3>Popular albums</h3>
+                    <a href="#">show all</a>
+                </div>
+                <div class="artistcont">
+                    <div class="artist">
+                        <div class="imgcont albums" onmouseover="mouse()">
+                            <img src="https://i.scdn.co/image/ab67616d00001e02aad3f4b601ae8763b3fc4e88" alt="">
+                            <div class="playicon"><i class="fa-solid fa-circle-play"></i></div>
+                        </div>
+                        <div class="artistname">
+                            <a href="#">GLORY</a>
+                            <h4>Yo Yo honey singh</h4>
+                        </div>
+                    </div>
+                    <div class="artist">
+                        <div class="imgcont albums" onmouseover="mouse()">
+                            <img src="https://i.scdn.co/image/ab67616d00001e026404721c1943d5069f0805f3" alt="">
+                            <div class="playicon"><i class="fa-solid fa-circle-play"></i></div>
+                        </div>
+                        <div class="artistname">
+                            <a href="#">Aashiqui 2</a>
+                            <h4>mithoon, Ankit, Tiwari, Jeet Gannguli</h4>
+                        </div>
+                    </div>
+                    <div class="artist">
+                        <div class="imgcont albums" onmouseover="mouse()">
+                            <img src="https://i.scdn.co/image/ab67616d00001e0272a77d038887cdc425f5ee55" alt="">
+                            <div class="playicon"><i class="fa-solid fa-circle-play"></i></div>
+                        </div>
+                        <div class="artistname">
+                            <a href="#">Jo Tum Mere Ho</a>
+                            <h4>Anuv Jain</h4>
+                        </div>
+                    </div>
+                    <div class="artist">
+                        <div class="imgcont albums" onmouseover="mouse()">
+                            <img src="https://i.scdn.co/image/ab67616d00001e02bb25239324c4e16ae01fda36" alt="">
+                            <div class="playicon"><i class="fa-solid fa-circle-play"></i></div>
+                        </div>
+                        <div class="artistname">
+                            <a href="#">Making Memories</a>
+                            <h4>Karan Aujil, Ikky</h4>
+                        </div>
+                    </div>
+                    <div class="artist">
+                        <div class="imgcont albums" onmouseover="mouse()">
+                            <img src="https://i.scdn.co/image/ab67616d00001e025e16168f7e8ff4fb8aace6cf" alt="">
+                            <div class="playicon"><i class="fa-solid fa-circle-play"></i></div>
+                        </div>
+                        <div class="artistname">
+                            <a href="#">Aaj Ki Ratt(From<br>"Stree 2")</a>
+                            <h4>Sachin-Jigar, Amitabh Bhattacharya</h4>
+                        </div>
+                    </div>
+                    <div class="artist">
+                        <div class="imgcont albums" onmouseover="mouse()">
+                            <img src="https://i.scdn.co/image/ab67616d00001e02707ea5b8023ac77d31756ed4" alt="">
+                            <div class="playicon"><i class="fa-solid fa-circle-play"></i></div>
+                        </div>
+                        <div class="artistname">
+                            <a href="#">Yeh Jawaani Hai Deewani</a>
+                            <h4>Pritam</h4>
+                        </div>
+                    </div>
+                    <div class="artist">
+                        <div class="imgcont albums" onmouseover="mouse()">
+                            <img src="https://i.scdn.co/image/ab67616d00001e021d1cc2e40d533d7bcebf5dae" alt="">
+                            <div class="playicon"><i class="fa-solid fa-circle-play"></i></div>
+                        </div>
+                        <div class="artistname">
+                            <a href="#">Moosetape</a>
+                            <h4>Sidhu Moose Wala</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="songartist">
+                <div class="conthead">
+                    <h3>Popular albums</h3>
+                    <a href="#">show all</a>
+                </div>
+                <div class="artistcont">
+                    <div class="artist">
+                        <div class="imgcont albums" onmouseover="mouse()">
+                            <img src="https://i.scdn.co/image/ab67616d00001e02aad3f4b601ae8763b3fc4e88" alt="">
+                            <div class="playicon"><i class="fa-solid fa-circle-play"></i></div>
+                        </div>
+                        <div class="artistname">
+                            <a href="#">GLORY</a>
+                            <h4>Yo Yo honey singh</h4>
+                        </div>
+                    </div>
+                    <div class="artist">
+                        <div class="imgcont albums" onmouseover="mouse()">
+                            <img src="https://i.scdn.co/image/ab67616d00001e026404721c1943d5069f0805f3" alt="">
+                            <div class="playicon"><i class="fa-solid fa-circle-play"></i></div>
+                        </div>
+                        <div class="artistname">
+                            <a href="#">Aashiqui 2</a>
+                            <h4>mithoon, Ankit, Tiwari, Jeet Gannguli</h4>
+                        </div>
+                    </div>
+                    <div class="artist">
+                        <div class="imgcont albums" onmouseover="mouse()">
+                            <img src="https://i.scdn.co/image/ab67616d00001e0272a77d038887cdc425f5ee55" alt="">
+                            <div class="playicon"><i class="fa-solid fa-circle-play"></i></div>
+                        </div>
+                        <div class="artistname">
+                            <a href="#">Jo Tum Mere Ho</a>
+                            <h4>Anuv Jain</h4>
+                        </div>
+                    </div>
+                    <div class="artist">
+                        <div class="imgcont albums" onmouseover="mouse()">
+                            <img src="https://i.scdn.co/image/ab67616d00001e02bb25239324c4e16ae01fda36" alt="">
+                            <div class="playicon"><i class="fa-solid fa-circle-play"></i></div>
+                        </div>
+                        <div class="artistname">
+                            <a href="#">Making Memories</a>
+                            <h4>Karan Aujil, Ikky</h4>
+                        </div>
+                    </div>
+                    <div class="artist">
+                        <div class="imgcont albums" onmouseover="mouse()">
+                            <img src="https://i.scdn.co/image/ab67616d00001e025e16168f7e8ff4fb8aace6cf" alt="">
+                            <div class="playicon"><i class="fa-solid fa-circle-play"></i></div>
+                        </div>
+                        <div class="artistname">
+                            <a href="#">Aaj Ki Ratt(From<br>"Stree 2")</a>
+                            <h4>Sachin-Jigar, Amitabh Bhattacharya</h4>
+                        </div>
+                    </div>
+                    <div class="artist">
+                        <div class="imgcont albums" onmouseover="mouse()">
+                            <img src="https://i.scdn.co/image/ab67616d00001e02707ea5b8023ac77d31756ed4" alt="">
+                            <div class="playicon"><i class="fa-solid fa-circle-play"></i></div>
+                        </div>
+                        <div class="artistname">
+                            <a href="#">Yeh Jawaani Hai Deewani</a>
+                            <h4>Pritam</h4>
+                        </div>
+                    </div>
+                    <div class="artist">
+                        <div class="imgcont albums" onmouseover="mouse()">
+                            <img src="https://i.scdn.co/image/ab67616d00001e021d1cc2e40d533d7bcebf5dae" alt="">
+                            <div class="playicon"><i class="fa-solid fa-circle-play"></i></div>
+                        </div>
+                        <div class="artistname">
+                            <a href="#">Moosetape</a>
+                            <h4>Sidhu Moose Wala</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="songartist">
+                <div class="conthead">
+                    <h3>Popular albums</h3>
+                    <a href="#">show all</a>
+                </div>
+                <div class="artistcont">
+                    <div class="artist">
+                        <div class="imgcont albums" onmouseover="mouse()">
+                            <img src="https://i.scdn.co/image/ab67616d00001e02aad3f4b601ae8763b3fc4e88" alt="">
+                            <div class="playicon"><i class="fa-solid fa-circle-play"></i></div>
+                        </div>
+                        <div class="artistname">
+                            <a href="#">GLORY</a>
+                            <h4>Yo Yo honey singh</h4>
+                        </div>
+                    </div>
+                    <div class="artist">
+                        <div class="imgcont albums" onmouseover="mouse()">
+                            <img src="https://i.scdn.co/image/ab67616d00001e026404721c1943d5069f0805f3" alt="">
+                            <div class="playicon"><i class="fa-solid fa-circle-play"></i></div>
+                        </div>
+                        <div class="artistname">
+                            <a href="#">Aashiqui 2</a>
+                            <h4>mithoon, Ankit, Tiwari, Jeet Gannguli</h4>
+                        </div>
+                    </div>
+                    <div class="artist">
+                        <div class="imgcont albums" onmouseover="mouse()">
+                            <img src="https://i.scdn.co/image/ab67616d00001e0272a77d038887cdc425f5ee55" alt="">
+                            <div class="playicon"><i class="fa-solid fa-circle-play"></i></div>
+                        </div>
+                        <div class="artistname">
+                            <a href="#">Jo Tum Mere Ho</a>
+                            <h4>Anuv Jain</h4>
+                        </div>
+                    </div>
+                    <div class="artist">
+                        <div class="imgcont albums" onmouseover="mouse()">
+                            <img src="https://i.scdn.co/image/ab67616d00001e02bb25239324c4e16ae01fda36" alt="">
+                            <div class="playicon"><i class="fa-solid fa-circle-play"></i></div>
+                        </div>
+                        <div class="artistname">
+                            <a href="#">Making Memories</a>
+                            <h4>Karan Aujil, Ikky</h4>
+                        </div>
+                    </div>
+                    <div class="artist">
+                        <div class="imgcont albums" onmouseover="mouse()">
+                            <img src="https://i.scdn.co/image/ab67616d00001e025e16168f7e8ff4fb8aace6cf" alt="">
+                            <div class="playicon"><i class="fa-solid fa-circle-play"></i></div>
+                        </div>
+                        <div class="artistname">
+                            <a href="#">Aaj Ki Ratt(From<br>"Stree 2")</a>
+                            <h4>Sachin-Jigar, Amitabh Bhattacharya</h4>
+                        </div>
+                    </div>
+                    <div class="artist">
+                        <div class="imgcont albums" onmouseover="mouse()">
+                            <img src="https://i.scdn.co/image/ab67616d00001e02707ea5b8023ac77d31756ed4" alt="">
+                            <div class="playicon"><i class="fa-solid fa-circle-play"></i></div>
+                        </div>
+                        <div class="artistname">
+                            <a href="#">Yeh Jawaani Hai Deewani</a>
+                            <h4>Pritam</h4>
+                        </div>
+                    </div>
+                    <div class="artist">
+                        <div class="imgcont albums" onmouseover="mouse()">
+                            <img src="https://i.scdn.co/image/ab67616d00001e021d1cc2e40d533d7bcebf5dae" alt="">
+                            <div class="playicon"><i class="fa-solid fa-circle-play"></i></div>
+                        </div>
+                        <div class="artistname">
+                            <a href="#">Moosetape</a>
+                            <h4>Sidhu Moose Wala</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <footer>
+                <div class="footercontainer">
+                    <div class="contant">
+                        <ul>
+                            <h5>Company</h5>
+                            <li>About</li>
+                            <li>Jobs</li>
+                            <li>For the Records</li>
+                        </ul>
+                        <ul>
+                            <h5>Communities</h5>
+                            <li>For Artists</li>
+                            <li>Developer</li>
+                            <li>Advertising</li>
+                            <li>Investors</li>
+                            <li>Vendors</li>
+                        </ul>
+                        <ul>
+                            <h5>Useful Links</h5>
+                            <li>Support</li>
+                            <li>Free Mobile App</li>
+                        </ul>
+                        <ul>
+                            <h5>Spotify Plans</h5>
+                            <li>Premium Individual</li>
+                            <li>Premium Duo</li>
+                            <li>Premium Family</li>
+                            <li>Premium Student</li>
+                            <li>Spotify Free</li>
+
+                        </ul>
+                    </div>
+                    <div class="icon">
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-facebook"></i>
+                    </div>
+                </div>
+                <span>&copy; 2024 Spotify AB</span>
+            </footer>
+
+        </div>
+
+    </div>
+
+
+    <div class="preview">
+        <div class="contantpre">
+            <h6>Preview of Spotify</h6>
+            <p>Sign up to get unlimited songs and podcasts with occasional ads. No credit card needed.</p>
+        </div>
+        <button>Sign up free</button>
+    </div>
+
+
+
+
+
+
+
+
+    <script src="https://kit.fontawesome.com/cf6a596235.js" crossorigin="anonymous"></script>
+    <script src="/Assignment/spotify/script.js"></script>
+</body>
+
+</html>

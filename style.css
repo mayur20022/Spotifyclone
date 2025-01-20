@@ -1,0 +1,528 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 600;
+}
+
+body {
+
+    font-family: var(--encore-body-font-stack, var(--fallback-fonts, sans-serif)), sans-serif;
+    background-color: #f8f8f8;
+    background-color: black;
+    /* margin: 10px; */
+}
+
+header {
+    width: 100%;
+    color: #fff;
+    padding: 10px;
+    /* text-align: center; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 35px;
+}
+
+.homeSearch {
+    /* width: 550px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 25px;
+    margin-left: 50px;
+}
+
+
+
+.home {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    font-size: 19px;
+    align-items: center;
+    justify-content: center;
+    background: #2a2a2a;
+    border-radius: 30px;
+    padding: 10px 20px;
+    margin-right: 10px;
+
+}
+
+.home:hover,
+button:hover {
+    scale: 1.05;
+}
+
+.rearch {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #2a2a2a;
+    border-radius: 30px;
+    padding: 7px 20px;
+    text-align: center;
+}
+
+.rearch button,
+.rearch input {
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 20px;
+}
+
+.rearch input {
+    font-size: 15px;
+    width: 370px;
+    height: 30px;
+    margin-left: 10px;
+    padding: 10px;
+    outline: none;
+}
+
+.browser {
+    border-left: 1px solid white;
+    padding: 0 0 0 15px;
+}
+
+.slbutton button {
+    width: 100px;
+    padding: 12px;
+    border-radius: 30px;
+    border: none;
+    font-size: 15px;
+}
+
+#signin {
+    background: transparent;
+    border: none;
+    color: rgb(179, 179, 179);
+}
+
+
+
+
+
+/* --------------------------------------------------------------------------------------------------------------------------------------------- */
+/* sider */
+/* --------------- */
+
+.sider {
+    width: 30%;
+    height: 80vh;
+    /* height: auto; */
+    border-radius: 10px;
+    background: #141414;
+    /* margin: 10px; */
+    color: white;
+    padding: 8px;
+    overflow: hidden scroll;
+}
+
+.sider::-webkit-scrollbar {
+    display: none;
+}
+
+.sider .sidertop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    margin: 15px;
+    margin-bottom: 30px;
+}
+
+
+
+.lib {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px;
+    width: 140px;
+}
+
+.lib i,
+.sidertop i {
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.container {
+    /* margin-top: px; */
+    margin-bottom: 20px;
+    line-height: 30px;
+    background: #222222;
+    padding: 18px;
+    border-radius: 10px;
+    font-size: 13px;
+}
+
+.container button {
+    padding: 6px 15px;
+    border: none;
+    border-radius: 50px;
+    margin: 15px 6px 0 6px;
+}
+
+.sidefooter {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    flex-wrap: wrap;
+    color: #999;
+    /* margin: 0 5px; */
+    margin-top: 40px;
+    text-align: start;
+}
+
+.sidefooter a {
+    font-size: 10px;
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+    padding: 10px 8px;
+}
+
+.sidefootera {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    color: #999;
+    /* margin: 0 5px; */
+    text-align: start;
+}
+
+.sider span {
+    font-weight: 600;
+}
+
+.sidefootera a {
+    font-size: 11px;
+    color: white;
+    text-decoration: none;
+    font-weight: 100;
+    margin-right: 9px;
+    padding: 10px 7px;
+}
+
+.sideLan button {
+    padding: 10px 14px;
+    border-radius: 50px;
+    border: 1px solid white;
+    margin: 30px 10px;
+    background: transparent;
+    color: white;
+    text-align: center;
+    line-height: 10px;
+
+}
+
+.sideLan button i {
+    font-size: 12px;
+    margin-right: 8px;
+}
+
+#Cookies {
+    font-weight: 900;
+    font-size: 11px;
+}
+
+#Cookies:hover {
+    text-decoration: underline;
+
+}
+
+.base {
+    /* width: 99%; */
+    /* height: 1; */
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px;
+}
+
+/* --------------------------------------------------------------------------------------------------------------------------------------------- */
+/* main */
+
+.main {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to top,
+            #141414, #141414, #141414, #141414, #2a2a2a);
+    margin-left: 5px;
+    border-radius: 10px;
+    overflow: scroll;
+    overflow-x: hidden;
+
+}
+
+.main::-webkit-scrollbar {
+    display: none;
+}
+
+.songartist {
+    width: 1100px;
+    margin: auto;
+
+}
+
+.conthead {
+    width: 100%;
+    padding: 20px 22px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.conthead h3 {
+    font-size: 23px;
+}
+
+.conthead a {
+    font-size: 13px;
+    color: white;
+    text-decoration: none;
+}
+
+.artist {
+    width: 198px;
+    height: 250px;
+}
+
+.artistcont {
+    width: 100%;
+    display: flex;
+    margin: 0 5px;
+}
+
+.imgcont {
+    width: 140px;
+    height: 140px;
+    margin: auto;
+    position: relative;
+
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px #141414;
+}
+
+.artistname {
+    width: 100%;
+    text-align: start;
+    font-size: 15px;
+    color: white;
+    padding: 0 11px;
+    margin-top: 15px;
+    line-height: 22px;
+}
+
+.artistname a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.artistname h4 {
+    font-weight: 100;
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+.artist:hover {
+    background: linear-gradient(to bottom, transparent, #2a2a2a86);
+    border-radius: 10px;
+}
+
+
+
+
+footer {
+    width: 100%;
+    /* height: 100px;. */
+
+
+}
+
+
+
+.albums img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #141414;
+}
+
+
+
+.footercontainer {
+    /* width: 1100px; */
+    /* height: 200px; */
+    padding: 40px 0;
+    margin: 0 30px;
+    margin-bottom: 45px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* padding-bottom: 20px; */
+    color: white;
+    font-size: 13px;
+    border-bottom: 1px solid #2a2a2a;
+}
+
+.contant {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+ul h5 {
+    font-size: 17px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+ul li {
+    font-size: 14px;
+    font-weight: 200;
+    margin-bottom: 10px;
+}
+
+.icon {
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    color: #999;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+footer span {
+    font-weight: 500;
+    font-size: 14px;
+    margin-left: 30px;
+    padding-bottom: 70px;
+    color: white;
+}
+
+.preview {
+    width: 99%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+    margin: 10px;
+    background: linear-gradient(to right, #ff0ada, #4cb3ff, #4cb3ff);
+    color: white;
+    /* border-radius: 10px; */
+}
+
+.preview h6 {
+    font-size: 16px;
+    margin-bottom: 7px;
+}
+
+.preview p {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.preview button {
+    padding: 6px 15px;
+    border: none;
+    border-radius: 50px;
+    /* background: transparent; */
+    margin-right: 10px;
+    text-align: center;
+}
+
+/* .playicon {
+    font-size: 34px;
+    color: rgb(47, 255, 82);
+    position: absolute;
+    right: 5%;
+    bottom: 5%;
+    display: none;
+} */
+
+/* .artist:hover .playicon{
+    display: block;
+    cursor: pointer;
+} */
+
+.artist .playicon {
+    opacity: 0;
+    visibility: hidden;
+    transition: all .2s ease-in-out;
+    background: #000;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -5px;
+    right: 5px;
+    color: rgb(28, 249, 28);
+    font-size: 50px;
+    text-align: center;
+    line-height: 3px;
+    box-shadow: 0px 0px 10px #000;
+
+}
+
+.artist:hover .playicon {
+    opacity: 1;
+    visibility: visible;
+    cursor: pointer;
+    bottom: 5px;
+    right: 5px;
+}
+
+
+
+.searchmenu {
+    padding: 8px 10px;
+    display: none;
+    font-size: 19px;
+    background: #2a2a2a;
+    border-radius: 30px;
+
+}
+
+.searchmenu button {
+    background: transparent;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 24px;
+}
+
+
+@media (max-width:930px) {
+    .rearch {
+        display: none;
+    }
+
+    .searchmenu {
+        display: block;
+
+    }
+
+}
